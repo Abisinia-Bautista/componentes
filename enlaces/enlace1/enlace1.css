@@ -28,7 +28,7 @@ a.learn-more {
     font-family: inherit;
 }
 .learn-more .circle {
-    transition: all 0.45scubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: relative;
     display: block;
     margin: 0;
@@ -38,7 +38,7 @@ a.learn-more {
     border-radius: 1.625rem;
 }
 .learn-more .learn-more-text {
-    transition: all 0.45scubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
     left: 0;
@@ -53,14 +53,14 @@ a.learn-more {
     text-transform: uppercase;
 }
 .learn-more .circle .icon.arrow {
-    transition: all 0.45scubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     left: 0.625rem;
     width: 1.125rem;
     height: 0.125rem;
     background: none;
 }
 .learn-more .circle .icon {
-    transition: all 0.45scubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
     bottom: 0;
