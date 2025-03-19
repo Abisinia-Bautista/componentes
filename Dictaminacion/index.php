@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidebar con Submenús</title>
+    <title>Revisión Técnica de las TICS</title>
     <!-- Agregar Bootstrap 5 CSS sin el atributo integrity -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Para iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> 
     <link rel="stylesheet" href="./style.css">
+    <link href="https://www.ventanillabc.bajacalifornia.gob.mx/assets/img/image_urbem/img/escudo.png" rel="icon">
+    <link href="https://www.ventanillabc.bajacalifornia.gob.mx/assets/img/image_urbem/img/escudo.png" rel="apple-touch-icon">
 </head>
 <body>
     <div id="header-mid">
@@ -16,14 +18,14 @@
                 <div class="d-none d-lg-block d-sm-none ">
                     <h1 class="logo me-auto">
                     <a href="/">
-                        <img style="max-width: 500px; outline: none!important" alt="Logo de Baja California" src="http://15.220.187.125/assets/public/img/logo.webp" width="350px">
+                        <img style="max-width: 500px; outline: none!important" alt="Logo de Baja California" src="./img/logo.webp" width="350px">
                     </a>
                     </h1>
                 </div>
                 <div class="d-lg-none">
                     <h1 class="logo me-auto">
                     <a href="index.php">
-                        <img style="max-width: 400px; outline: none!important" alt="Logo de Baja California" src="http://15.220.187.125/assets/public/img/logo.webp" width="180px" height="30px">
+                        <img style="max-width: 400px; outline: none!important" alt="Logo de Baja California" src="./img/logo.webp" width="180px" height="30px">
                     </a>
                     </h1>
                 </div>
@@ -32,11 +34,11 @@
                 </div> 
                 <nav id="navbar" class="navbar">
                     <ul>
-                    <li><a type="submit" href="http://15.220.187.125/TramitesyServicios" class="enlaces">Tramites y Servicios</a></li>
-                    <li><a type="submit" href="http://3.12.178.209:88/" class="enlaces">Mejora Regulatoria</a></li>
+                    <li><a type="submit" href="https://retys.bajacalifornia.gob.mx/" class="enlaces">Tramites y Servicios</a></li>
+                    <li><a type="submit" href="https://mejoraregulatoria.bajacalifornia.gob.mx/" class="enlaces">Mejora Regulatoria</a></li>
                     <li><a type="submit" href="https://gobiernoabierto.bajacalifornia.gob.mx/" class="enlaces" target="_blank">Gobierno Abierto</a></li>
-                    <!-- <li><a type="submit" href="http://15.220.187.125/auth/login"><img src="http://15.220.187.125/assets/public/img/next.png"  width="50px"/></a></li> -->
-                    <li><a type="submit" href="http://15.220.187.125/auth/login" class="enlaces">Iniciar Sesion</a></li>
+                    <!-- <li><a type="submit" href="http://15.220.187.125/auth/login"><img src="http://15.220.187.125/assets/public/img/next.png"  width="50px"/></a></li> 
+                    <li><a type="submit" href="http://15.220.187.125/auth/login" class="enlaces">Iniciar Sesion</a></li> -->
                     </ul>
                     
                 </nav>
@@ -80,11 +82,11 @@
                         <i class="fas fa-chevron-down float-end"></i>
                     </a>
                     <ul class="submenu collapse" id="solicitud">
-                        <li><a href="#" class="nav-link text-white ms-3" >Solicitud de Autorización</a></li>
-                        <li><a href="#" class="nav-link text-white ms-3">Solicitud de Dictamen Técnico</a></li>
-                        <li><a href="#" class="nav-link text-white ms-3">Solicitud de Visto Bueno</a></li>
-                        <li><a href="#" class="nav-link text-white ms-3">Solicitud de Aceptación de Baja</a></li>
-                        <li><a href="#" class="nav-link text-white ms-3">Formato de Actualización de Factura</a></li>
+                        <li><a href="https://www.ventanilladigital.bajacalifornia.gob.mx/tra/init/220124424a3758faa7393e2addcc5dfc/0" class="nav-link text-white ms-3" >Solicitud de Autorización</a></li>
+                        <li><a href="https://www.ventanilladigital.bajacalifornia.gob.mx/tra/init/68c5ffa4ec17bcbf1cd25440e7696de7/0" class="nav-link text-white ms-3">Solicitud de Dictamen Técnico</a></li>
+                        <li><a href="https://www.ventanilladigital.bajacalifornia.gob.mx/tra/init/ba3ec4d0f19b332680ca7060e44a0acd/0" class="nav-link text-white ms-3">Solicitud de Visto Bueno</a></li>
+                        <li><a href="https://www.ventanilladigital.bajacalifornia.gob.mx/tra/init/d9b84e924c257daeae5d229bf1b41b97/0" class="nav-link text-white ms-3">Solicitud de Aceptación de Baja</a></li>
+                        <li><a href="https://www.ventanilladigital.bajacalifornia.gob.mx/tra/init/c6761f6bfe7aa8f5d04c5a4cebbff2f1/0" class="nav-link text-white ms-3">Formato de Actualización de Factura</a></li>
                     </ul>
                 </li>
                 
@@ -4387,6 +4389,5 @@
             });
         });
     </script>
-
 </body>
 </html>
